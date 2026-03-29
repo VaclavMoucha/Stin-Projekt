@@ -1,0 +1,4 @@
+{
+  "baseCurrency" : "CZK",
+  "selectedCurrencies" : [ "USD", "CZK", "GBP", "CHF", "JPY", "PLN", "HUF", "SEK", "NOK", "DKK", "CAD", "AUD" ]
+}
