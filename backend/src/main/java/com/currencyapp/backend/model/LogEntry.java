@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ExchangeRate {
-    private String currency;
-    private double rate;
-    private String date;
+public class LogEntry {
+    private String timestamp;
+    private String level;
+    private String message;
 }
