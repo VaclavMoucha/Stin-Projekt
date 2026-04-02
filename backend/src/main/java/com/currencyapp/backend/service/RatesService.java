@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,25 +17,41 @@ import com.currencyapp.backend.model.FrankfurterResponse;
 import com.currencyapp.backend.model.LogEntry;
 import com.currencyapp.backend.repository.LogRepository;
 import com.currencyapp.backend.repository.SettingsRepository;
+
+import org.slf4j.Logger;
+
 @Service
-public class RatesService {
+public class RatesService { 
+
+    private static final Logger logger = LoggerFactory.getLogger(RatesService.class);
     @Autowired
     private FrankfurterClient frankfurterClient;
     @Autowired
     private SettingsRepository settingsRepository;
     @Autowired
     private LogRepository logRepository;
+   
 
     public FrankfurterResponse getLatestRates() {
         var settings = settingsRepository.getSettings();
-        var response = frankfurterClient.getLatestRates(
-                settings.getPreferredCurrency(),
-                settings.getSelectedCurrencies());
-        logRepository.addLog(new LogEntry(
-                LocalDateTime.now().toString(),
-                "INFO",
-                "Fetched latest rates for " + settings.getPreferredCurrency()));
-        return response;
+        logger.info("Fetching latest rates for {}", settings.getPreferredCurrency());
+        try {
+            var response = frankfurterClient.getLatestRates(
+                    settings.getPreferredCurrency(),
+                    settings.getSelectedCurrencies());
+            logRepository.addLog(new LogEntry(
+                    LocalDateTime.now().toString(),
+                    "INFO",
+                    "Fetched latest rates for " + settings.getPreferredCurrency()));
+            return response;
+        } catch (Exception e) {
+            logger.error("API call failed: {}", e.getMessage());
+            logRepository.addLog(new LogEntry(
+                    LocalDateTime.now().toString(),
+                    "ERROR",
+                    "API call failed: " + e.getMessage()));
+            throw e;
+        }
     }
 
     public ExchangeRate getStrongest() {
