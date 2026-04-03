@@ -394,3 +394,792 @@ jakarta.validation.ConstraintViolationException: getAverage.to: Invalid date for
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2026-04-03 10:26:42 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-04-03 10:26:42 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:26:42 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:26:42 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:26:42 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:26:42 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:26:43 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:26:43 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:26:43 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:26:43 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 783 ms
+2026-04-03 10:26:43 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:26:43 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:26:43 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:26:43 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 1.425 seconds (process running for 270.084)
+2026-04-03 10:26:43 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:26:50 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:26:50 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:26:50 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:26:50 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:26:50 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:26:50 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:26:50 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:26:50 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:26:50 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:26:50 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 447 ms
+2026-04-03 10:26:50 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:26:51 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:26:51 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:26:51 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.802 seconds (process running for 277.41)
+2026-04-03 10:26:51 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:26:55 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-03 10:26:55 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-03 10:26:55 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-03 10:26:56 [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [jakarta.validation.ConstraintViolationException: getAverage.to: Invalid date format, getAverage.from: Invalid date format]
+2026-04-03 10:28:48 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-04-03 10:28:48 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:28:48 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:28:49 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:28:49 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:28:49 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:28:49 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:28:49 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:28:49 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:28:49 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 491 ms
+2026-04-03 10:28:49 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:28:49 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:28:49 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:28:49 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.788 seconds (process running for 396.117)
+2026-04-03 10:28:49 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:28:56 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:28:56 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:28:56 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:28:56 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:28:56 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:28:56 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:28:56 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:28:56 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:28:56 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:28:57 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 580 ms
+2026-04-03 10:28:57 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:28:57 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:28:57 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:28:57 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 1.068 seconds (process running for 403.812)
+2026-04-03 10:28:57 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:28:58 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:28:58 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:28:58 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:28:58 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:28:58 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:28:58 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:28:59 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:28:59 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:28:59 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:28:59 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 424 ms
+2026-04-03 10:28:59 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:28:59 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:28:59 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:28:59 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.84 seconds (process running for 406.094)
+2026-04-03 10:28:59 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:04 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:04 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:04 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:04 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:04 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:04 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:04 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:04 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:04 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:04 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 391 ms
+2026-04-03 10:29:04 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:04 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:04 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:04 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.646 seconds (process running for 411.268)
+2026-04-03 10:29:04 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:08 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:08 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:08 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:08 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:08 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:08 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:08 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:08 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:08 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:08 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 361 ms
+2026-04-03 10:29:08 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:09 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:09 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:09 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.7 seconds (process running for 415.509)
+2026-04-03 10:29:09 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:15 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:15 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:15 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:15 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:15 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:15 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:16 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:16 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:16 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:16 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 386 ms
+2026-04-03 10:29:16 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:16 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:16 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:16 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.601 seconds (process running for 422.662)
+2026-04-03 10:29:16 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:18 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:18 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:18 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:18 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:18 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:18 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:19 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:19 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:19 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:19 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 524 ms
+2026-04-03 10:29:19 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:19 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:19 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:19 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.9 seconds (process running for 426.078)
+2026-04-03 10:29:19 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:21 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:21 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:21 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:21 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:21 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:21 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:21 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:21 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:21 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:21 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 392 ms
+2026-04-03 10:29:21 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:21 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:21 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:22 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.759 seconds (process running for 428.363)
+2026-04-03 10:29:22 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:23 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:23 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:23 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:23 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:23 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:23 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:24 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:24 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:24 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:24 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 568 ms
+2026-04-03 10:29:24 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:24 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:24 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:24 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.89 seconds (process running for 430.717)
+2026-04-03 10:29:24 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:27 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:27 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:27 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:27 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:27 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:27 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:28 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:28 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:28 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:28 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 383 ms
+2026-04-03 10:29:28 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+2026-04-03 10:29:28 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-03 10:29:28 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-03 10:29:28 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.controller.LogsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1fd379fb]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: List
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: List
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	... 30 common frames omitted
+2026-04-03 10:29:29 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:29 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:29 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:30 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:30 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:30 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:30 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 305 ms
+2026-04-03 10:29:30 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+2026-04-03 10:29:30 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-03 10:29:30 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-03 10:29:30 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.controller.LogsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7ffc86b4]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: List
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: List
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	... 30 common frames omitted
+2026-04-03 10:29:32 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:32 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:32 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:32 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:32 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:32 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:32 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 237 ms
+2026-04-03 10:29:33 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+2026-04-03 10:29:33 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-03 10:29:33 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-03 10:29:33 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logsController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.controller.LogsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@22f64749]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: List
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: List
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	... 30 common frames omitted
+2026-04-03 10:29:35 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:35 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:35 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:35 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:35 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:35 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:35 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 328 ms
+2026-04-03 10:29:35 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:36 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:36 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:36 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.541 seconds (process running for 442.398)
+2026-04-03 10:29:36 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:29:39 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-04-03 10:29:39 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-03 10:29:39 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-03 10:29:39 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 29220 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-03 10:29:39 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-03 10:29:39 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-03 10:29:39 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-03 10:29:39 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-03 10:29:39 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-03 10:29:39 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 285 ms
+2026-04-03 10:29:40 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-03 10:29:40 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-03 10:29:40 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-03 10:29:40 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.562 seconds (process running for 446.561)
+2026-04-03 10:29:40 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-03 10:30:16 [INFO] o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-03 10:30:16 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-03 10:30:16 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-04-03 10:30:48 [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.currencyapp.backend.model.UserSettings.getPreferredCurrency()" because "settings" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.currencyapp.backend.model.UserSettings.getPreferredCurrency()" because "settings" is null
+	at com.currencyapp.backend.service.RatesService.getLatestRates(RatesService.java:37) ~[classes/:na]
+	at com.currencyapp.backend.controller.RatesController.getLatestRates(RatesController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.6.jar:7.0.6]
+	at com.currencyapp.backend.controller.RatesController$$SpringCGLIB$$0.getLatestRates(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:493) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:354) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:86) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:132) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:247) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:337) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2026-04-03 10:30:55 [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-04-03 10:30:57 [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-04-03 10:31:23 [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-04-03 10:31:32 [INFO] c.c.backend.service.RatesService - Fetching latest rates for GBP
+2026-04-03 10:32:14 [INFO] c.c.backend.service.RatesService - Fetching latest rates for GBP
+2026-04-03 10:32:24 [ERROR] c.c.backend.service.RatesService - API call failed: 520 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 520"
+2026-04-03 10:32:24 [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.client.HttpServerErrorException: 520 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 520"] with root cause
+org.springframework.web.client.HttpServerErrorException: 520 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 520"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:123) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:119) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:807) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:756) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:304) ~[spring-web-7.0.6.jar:7.0.6]
+	at com.currencyapp.backend.client.FrankfurterClient.getLatestRates(FrankfurterClient.java:21) ~[classes/:na]
+	at com.currencyapp.backend.service.RatesService.getLatestRates(RatesService.java:39) ~[classes/:na]
+	at com.currencyapp.backend.controller.RatesController.getLatestRates(RatesController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.6.jar:7.0.6]
+	at com.currencyapp.backend.controller.RatesController$$SpringCGLIB$$0.getLatestRates(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:493) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:354) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:86) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:132) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:247) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:337) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2026-04-03 10:32:34 [ERROR] c.c.backend.service.RatesService - API call failed: 522 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 522"
+2026-04-03 10:32:34 [ERROR] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.client.HttpServerErrorException: 522 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 522"] with root cause
+org.springframework.web.client.HttpServerErrorException: 522 <none> on GET request for "https://api.frankfurter.app/latest": "error code: 522"
+	at org.springframework.web.client.HttpServerErrorException.create(HttpServerErrorException.java:123) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:119) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:807) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:756) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:304) ~[spring-web-7.0.6.jar:7.0.6]
+	at com.currencyapp.backend.client.FrankfurterClient.getLatestRates(FrankfurterClient.java:21) ~[classes/:na]
+	at com.currencyapp.backend.service.RatesService.getLatestRates(RatesService.java:39) ~[classes/:na]
+	at com.currencyapp.backend.controller.RatesController.getLatestRates(RatesController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:172) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.6.jar:7.0.6]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719) ~[spring-aop-7.0.6.jar:7.0.6]
+	at com.currencyapp.backend.controller.RatesController$$SpringCGLIB$$0.getLatestRates(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.6.jar:7.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.20.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:235) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:493) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:354) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:86) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:132) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:181) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:247) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:110) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:96) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:231) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:244) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:337) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:228) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:141) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:237) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:195) ~[spring-security-web-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:317) ~[spring-security-config-7.0.4.jar:7.0.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:355) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:272) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.6.jar:7.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1779) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
