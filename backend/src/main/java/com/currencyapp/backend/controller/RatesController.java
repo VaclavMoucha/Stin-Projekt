@@ -3,6 +3,7 @@ package com.currencyapp.backend.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -12,6 +13,9 @@ import com.currencyapp.backend.model.ExchangeRate;
 import com.currencyapp.backend.model.FrankfurterResponse;
 import com.currencyapp.backend.service.RatesService;
 
+import jakarta.validation.constraints.Pattern;
+
+@Validated
 @RestController
 @RequestMapping("/api/rates")
 public class RatesController {
@@ -34,8 +38,10 @@ public class RatesController {
     }
 
     @GetMapping("/average")
-    public List<ExchangeRate> getAverage(@RequestParam String from,@RequestParam String to){
-        
-        return  ratesService.getAverage(from, to);
+    public List<ExchangeRate> getAverage(
+            @RequestParam @Pattern(regexp = "\\d{4}-\\d{2}-\\d{2}", message = "Invalid date format") String from,
+            @RequestParam @Pattern(regexp = "\\d{4}-\\d{2}-\\d{2}", message = "Invalid date format") String to) {
+
+        return ratesService.getAverage(from, to);
     }
 }

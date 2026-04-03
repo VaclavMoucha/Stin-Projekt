@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.currencyapp.backend.model.UserSettings;
 import com.currencyapp.backend.service.SettingsService;
 
+import jakarta.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -24,7 +26,7 @@ public class SettingsController {
     }
 
     @PostMapping
-    public void saveSettings(@RequestBody UserSettings settings) {
+    public void saveSettings(@Valid @RequestBody UserSettings settings) {
         settingsService.saveSettings(settings);
     }
 
