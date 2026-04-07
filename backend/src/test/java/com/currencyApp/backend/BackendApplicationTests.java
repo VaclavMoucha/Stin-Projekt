@@ -1,4 +1,4 @@
-package com.currencyApp.backend;
+package com.currencyapp.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

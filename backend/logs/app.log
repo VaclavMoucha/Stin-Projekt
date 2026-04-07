@@ -4244,3 +4244,409 @@ org.springframework.web.client.HttpServerErrorException: 520 <none> on GET reque
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.20.jar:11.0.20]
 	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+2026-04-07 16:22:28 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 11640 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 16:22:28 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 16:22:28 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 16:22:29 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 16:22:29 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 16:22:33 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 16:22:33 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 16:22:33 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 16:22:33 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4423 ms
+2026-04-07 16:22:34 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 16:22:36 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 16:22:37 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 16:22:37 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 9.08 seconds (process running for 10.319)
+2026-04-07 16:22:37 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 16:22:37 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 16:22:37 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-04-07 16:22:49 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (0 additions, 21 deletions, 0 modifications)
+2026-04-07 16:22:49 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 16:22:50 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 16:22:50 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 11640 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 16:22:50 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 16:22:50 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 16:22:52 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 16:22:52 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 16:22:52 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 16:22:52 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2121 ms
+2026-04-07 16:22:53 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 16:22:53 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 16:22:53 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 16:22:53 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 2.99 seconds (process running for 26.742)
+2026-04-07 16:22:53 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-07 16:22:54 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (21 additions, 0 deletions, 0 modifications)
+2026-04-07 16:22:54 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 16:22:54 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 16:22:55 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 11640 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 16:22:55 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 16:22:55 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 16:22:55 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 16:22:55 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 16:22:55 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 16:22:55 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 629 ms
+2026-04-07 16:22:55 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 16:22:55 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 16:22:56 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 16:22:56 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 1.109 seconds (process running for 29.293)
+2026-04-07 16:22:56 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-07 16:23:09 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 16:23:09 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 17:35:43 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 30868 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 17:35:43 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 17:35:43 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 17:35:43 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 17:35:43 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 17:35:46 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 17:35:46 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 17:35:46 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 17:35:47 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3256 ms
+2026-04-07 17:35:48 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 17:35:50 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 17:35:50 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-07 17:35:50 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07 17:35:50 [ERROR] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-04-07 17:42:51 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 30640 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 17:42:51 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 17:42:51 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 17:42:51 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 17:42:51 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 17:42:55 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 17:42:55 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 17:42:55 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 17:42:55 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3784 ms
+2026-04-07 17:42:56 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 17:42:58 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 17:42:58 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 17:42:58 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 7.998 seconds (process running for 9.718)
+2026-04-07 17:42:59 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 17:42:59 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 17:42:59 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-07 18:16:39 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
+2026-04-07 18:16:39 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 18:16:39 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 18:16:40 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 30640 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 18:16:40 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 18:16:40 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 18:16:41 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 18:16:41 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 18:16:41 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 18:16:41 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1407 ms
+2026-04-07 18:16:41 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+2026-04-07 18:16:41 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-07 18:16:41 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07 18:16:41 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.6.jar:7.0.6]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.5.jar:4.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.5.jar:4.0.5]
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.exception.GlobalExceptionHandler] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3e0864dd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-7.0.6.jar:7.0.6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460) ~[spring-beans-7.0.6.jar:7.0.6]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ConstraintViolationException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-7.0.6.jar:7.0.6]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ConstraintViolationException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at java.base/java.lang.Class.forName(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123) ~[spring-boot-devtools-4.0.5.jar:4.0.5]
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source) ~[na:na]
+	... 30 common frames omitted
+2026-04-07 18:17:15 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 24292 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 18:17:15 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 18:17:15 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 18:17:15 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 18:17:15 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 18:17:18 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 18:17:18 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 18:17:18 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 18:17:18 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3062 ms
+2026-04-07 18:17:19 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 18:17:20 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 18:17:21 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 18:17:21 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 6.78 seconds (process running for 7.928)
+2026-04-07 18:17:23 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 18:17:23 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 18:17:23 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-04-07 18:18:19 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
+2026-04-07 18:18:19 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 18:18:19 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 18:18:20 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 24292 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 18:18:20 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 18:18:20 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 18:18:21 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 18:18:21 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 18:18:21 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 18:18:21 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1226 ms
+2026-04-07 18:18:21 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 18:18:22 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 18:18:22 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 18:18:22 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 2.275 seconds (process running for 69.111)
+2026-04-07 18:18:22 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-07 18:18:23 [INFO] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 21 class path changes (0 additions, 0 deletions, 21 modifications)
+2026-04-07 18:18:23 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 18:18:23 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 18:18:24 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 24292 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 18:18:24 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 18:18:24 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 18:18:24 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 18:18:24 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 18:18:24 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 18:18:24 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 548 ms
+2026-04-07 18:18:24 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 18:18:24 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 18:18:24 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 18:18:24 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 0.855 seconds (process running for 71.732)
+2026-04-07 18:18:24 [INFO] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-04-07 18:27:19 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 23184 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 18:27:19 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v3.4.4, Spring v6.2.5
+2026-04-07 18:27:19 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 18:27:19 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 18:27:19 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 18:27:22 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 18:27:22 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 18:27:22 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2026-04-07 18:27:22 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-04-07 18:27:22 [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3005 ms
+2026-04-07 18:27:23 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 18:27:24 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 18:27:24 [INFO] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-04-07 18:27:24 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 18:27:24 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 18:27:24 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-04-07 18:27:24 [INFO] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 18:27:24 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 6.355 seconds (process running for 7.419)
+2026-04-07 18:27:47 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 18:27:48 [INFO] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 19:42:45 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 33924 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 19:42:45 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 19:42:45 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 19:42:45 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 19:42:45 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 19:42:48 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 19:42:48 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 19:42:48 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 19:42:48 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3433 ms
+2026-04-07 19:42:49 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 19:42:51 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 19:42:51 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 19:42:51 [INFO] c.c.backend.BackendApplication - Started BackendApplication in 7.946 seconds (process running for 9.382)
+2026-04-07 19:42:53 [INFO] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 19:42:53 [INFO] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 19:42:53 [INFO] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-04-07 19:43:41 [INFO] o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 19:43:41 [INFO] o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 20:23:06 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 28168 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 20:23:06 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 20:23:06 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 20:23:06 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 20:23:06 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 20:23:09 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 20:23:09 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 20:23:09 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 20:23:09 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2435 ms
+2026-04-07 20:23:09 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ratesController': Lookup method resolution failed
+2026-04-07 20:23:09 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-07 20:23:09 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07 20:23:09 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ratesController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.controller.RatesController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@750e2276]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/currencyapp/backend/model/ExchangeRate
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.currencyapp.backend.model.ExchangeRate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 30 common frames omitted
+2026-04-07 20:26:34 [INFO] c.c.backend.BackendApplication - Starting BackendApplication using Java 21.0.10 with PID 17308 (C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend\target\classes started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 20:26:34 [DEBUG] c.c.backend.BackendApplication - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 20:26:34 [INFO] c.c.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 20:26:34 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-04-07 20:26:34 [INFO] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-04-07 20:26:36 [INFO] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 20:26:36 [INFO] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 20:26:36 [INFO] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-07 20:26:36 [INFO] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2187 ms
+2026-04-07 20:26:36 [WARN] o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ratesController': Lookup method resolution failed
+2026-04-07 20:26:36 [INFO] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-04-07 20:26:36 [INFO] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-04-07 20:26:36 [ERROR] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ratesController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.currencyapp.backend.BackendApplication.main(BackendApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.currencyapp.backend.controller.RatesController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7af36c28]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:460)
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/currencyapp/backend/model/ExchangeRate
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.base/java.lang.Class.getDeclaredMethods(Unknown Source)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465)
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.currencyapp.backend.model.ExchangeRate
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:123)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 30 common frames omitted
+2026-04-07 21:15:11 [INFO] c.c.backend.BackendApplicationTests - Starting BackendApplicationTests using Java 25.0.2 with PID 26088 (started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 21:15:11 [DEBUG] c.c.backend.BackendApplicationTests - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 21:15:11 [INFO] c.c.backend.BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 21:15:12 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 21:15:14 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 21:15:14 [INFO] c.c.backend.BackendApplicationTests - Started BackendApplicationTests in 3.548 seconds (process running for 5.201)
+2026-04-07 21:15:15 [INFO] c.c.backend.service.RatesService - Settings not found when fetching latest rates
+2026-04-07 21:15:15 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:15:15 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:17:14 [INFO] c.c.backend.BackendApplicationTests - Starting BackendApplicationTests using Java 25.0.2 with PID 14576 (started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 21:17:14 [DEBUG] c.c.backend.BackendApplicationTests - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 21:17:14 [INFO] c.c.backend.BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 21:17:17 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 21:17:18 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 21:17:18 [INFO] c.c.backend.BackendApplicationTests - Started BackendApplicationTests in 5.239 seconds (process running for 7.943)
+2026-04-07 21:17:20 [INFO] c.c.backend.service.RatesService - Settings not found when fetching latest rates
+2026-04-07 21:17:20 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:17:20 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:20:35 [INFO] c.c.backend.BackendApplicationTests - Starting BackendApplicationTests using Java 25.0.2 with PID 23440 (started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 21:20:35 [DEBUG] c.c.backend.BackendApplicationTests - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 21:20:35 [INFO] c.c.backend.BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 21:20:37 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 21:20:39 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 21:20:39 [INFO] c.c.backend.BackendApplicationTests - Started BackendApplicationTests in 4.306 seconds (process running for 7.251)
+2026-04-07 21:20:40 [INFO] c.c.b.repository.SettingsRepository - Settings saved to file: test-settings.json
+2026-04-07 21:20:40 [INFO] c.c.b.repository.SettingsRepository - Settings saved to file: test-settings.json
+2026-04-07 21:20:40 [INFO] c.c.b.repository.SettingsRepository - Settings loaded from file: test-settings.json
+2026-04-07 21:20:41 [INFO] c.c.backend.service.RatesService - Settings not found when fetching latest rates
+2026-04-07 21:20:41 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:20:41 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:27:31 [INFO] c.c.backend.BackendApplicationTests - Starting BackendApplicationTests using Java 25.0.2 with PID 33408 (started by vacla in C:\Users\vacla\OneDrive\Dokumenty\Stin-Projekt\backend)
+2026-04-07 21:27:31 [DEBUG] c.c.backend.BackendApplicationTests - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-07 21:27:31 [INFO] c.c.backend.BackendApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 21:27:34 [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-04-07 21:27:35 [INFO] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-07 21:27:35 [INFO] c.c.backend.BackendApplicationTests - Started BackendApplicationTests in 4.317 seconds (process running for 6.891)
+2026-04-07 21:27:37 [INFO] c.c.b.repository.SettingsRepository - Settings saved to file: test-settings.json
+2026-04-07 21:27:37 [INFO] c.c.b.repository.SettingsRepository - Settings saved to file: test-settings.json
+2026-04-07 21:27:37 [INFO] c.c.b.repository.SettingsRepository - Settings loaded from file: test-settings.json
+2026-04-07 21:27:37 [INFO] c.c.backend.service.RatesService - Settings not found when fetching latest rates
+2026-04-07 21:27:37 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR
+2026-04-07 21:27:37 [INFO] c.c.backend.service.RatesService - Fetching latest rates for EUR

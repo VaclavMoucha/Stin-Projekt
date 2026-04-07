@@ -1,6 +1,7 @@
 package com.currencyapp.backend.controller;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
@@ -43,5 +44,10 @@ public class RatesController {
             @RequestParam @Pattern(regexp = "\\d{4}-\\d{2}-\\d{2}", message = "Invalid date format") String to) {
 
         return ratesService.getAverage(from, to);
+    }
+
+    @GetMapping("/currencies")
+    public Map<String, String> getCurrencies() {
+        return ratesService.getCurrencies();
     }
 }
