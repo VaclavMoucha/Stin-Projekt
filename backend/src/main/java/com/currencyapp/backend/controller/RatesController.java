@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.currencyapp.backend.model.ExchangeRate;
+import com.currencyapp.backend.model.FrankfurterHistoricalResponse;
 import com.currencyapp.backend.model.FrankfurterResponse;
 import com.currencyapp.backend.service.RatesService;
 
@@ -49,5 +50,12 @@ public class RatesController {
     @GetMapping("/currencies")
     public Map<String, String> getCurrencies() {
         return ratesService.getCurrencies();
+    }
+
+    @GetMapping("/historical")
+    public FrankfurterHistoricalResponse getHistoricalRates(
+            @RequestParam String from,
+            @RequestParam String to) {
+        return ratesService.getHistoricalRates(from, to);
     }
 }

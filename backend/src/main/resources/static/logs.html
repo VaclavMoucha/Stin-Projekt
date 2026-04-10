@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency App – Logy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <span>Currency App</span>
+        <div>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="settings.html">Nastavení</a>
+            <a href="logs.html">Logy</a>
+            <a href="#" onclick="logout()">Odhlásit</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Logy</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Datum a čas</th>
+                        <th>Úroveň</th>
+                        <th>Zpráva</th>
+                    </tr>
+                </thead>
+                <tbody id="logs-table">
+                    <tr><td colspan="3">Načítání...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/logs.js"></script>
+</body>
+</html>

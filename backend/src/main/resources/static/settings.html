@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency App – Nastavení</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <span>Currency App</span>
+      <div>
+        
+        <a href="dashboard.html">Dashboard</a>
+        <a href="settings.html">Nastavení</a>
+        <a href="logs.html">Logy</a>
+        <a href="#" onclick="logout()">Odhlásit</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <h2>Nastavení</h2>
+
+        <div class="form-group">
+          <label>Základní měna</label>
+          <select id="base-currency">
+            <option>Načítání...</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Sledované měny</label>
+          <div id="currencies-list">Načítání</div>
+        </div>
+
+        <button onclick="saveSettings()">Uložit nastavení</button>
+
+        <div
+          id="success-message"
+          class="hidden"
+          style="color: green; margin-top: 15px"
+        >
+          Nastavení uloženo!!!!!!!!!!!!!!!!!!!!
+        </div>
+
+        <div
+          id="error-message"
+          class="hidden"
+          style="color: red; margin-top: 15px"
+        >
+          Chyba při ukládání!!!!!!!!!!!!!!!!!!
+        </div>
+      </div>
+    </div>
+
+    <script src="js/settings.js"></script>
+  </body>
+</html>

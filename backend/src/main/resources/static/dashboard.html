@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency App – Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <nav>
+      <span>Currency App</span>
+      <div>
+       
+        <a href="dashboard.html">Dashboard</a>
+        <a href="settings.html">Nastavení</a>
+        <a href="logs.html">Logy</a>
+        <a href="#" onclick="logout()">Odhlásit</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="api-error" id="api-error">
+        API není dostupné. Zkuste to později.
+      </div>
+
+      
+      <div class="card">
+        <h2>Aktuální kurzy</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Měna</th>
+              <th>Kurz</th>
+            </tr>
+          </thead>
+          <tbody id="rates-table">
+            <tr>
+              <td colspan="2">Načítání...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Analýza</h2>
+        <p>Nejsilnější měna: <strong id="strongest">-</strong></p>
+        <p>Nejslabší měna: <strong id="weakest">-</strong></p>
+      </div>
+
+      <div class="card">
+        <h2>Průměr za období</h2>
+        <div class="form-group">
+          <label>Od</label>
+          <input type="date" id="from-date" />
+        </div>
+        <div class="form-group">
+          <label>Do</label>
+          <input type="date" id="to-date" />
+        </div>
+        <button onclick="loadAverage()">Vypočítat průměr</button>
+        <table style="margin-top: 15px">
+          <thead>
+            <tr>
+              <th>Měna</th>
+              <th>Průměrný kurz</th>
+            </tr>
+          </thead>
+          <tbody id="average-table"></tbody>
+        </table>
+      </div>
+    
+<div class="card">
+    <h2>Historický vývoj kurzů</h2>
+    <div class="form-group">
+        <label>Od</label>
+        <input type="date" id="chart-from-date">
+    </div>
+    <div class="form-group">
+        <label>Do</label>
+        <input type="date" id="chart-to-date">
+    </div>
+    <button onclick="loadChart()">Zobrazit graf</button>
+    <canvas id="historicalChart" style="margin-top: 15px;"></canvas>
+</div>
+    </div>
+
+    <script src="js/dashboard.js"></script>
+  </body>
+</html>
