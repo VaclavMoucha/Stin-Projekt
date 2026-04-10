@@ -65,4 +65,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'currencyApp'
-          s
+          slot-name: 'Production'
+          package: '*.jar'
