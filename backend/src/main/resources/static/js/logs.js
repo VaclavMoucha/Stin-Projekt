@@ -30,13 +30,13 @@ function loadLogs() {
             }
 
             data.forEach(line => {
-                if (!line.trim()) return; // přeskoč prázdné řádky
+                if (!line.trim()) return; 
 
                 const level = line.includes('[ERROR]') ? 'red' : 
                               line.includes('[WARN]') ? 'orange' : 
                               line.includes('[DEBUG]') ? 'gray' : 'green';
 
-                // Rozdel řádek na části
+               
                 const parts = line.match(/^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) \[(\w+)\] .+ - (.+)$/);
 
                 if (parts) {
@@ -47,7 +47,7 @@ function loadLogs() {
                             <td>${parts[3]}</td>
                         </tr>`;
                 } else {
-                    // Řádky které nelze rozdělit zobraz celé
+                    
                     tbody.innerHTML += `
                         <tr>
                             <td colspan="3" style="color: gray; font-size: 0.8rem;">${line}</td>

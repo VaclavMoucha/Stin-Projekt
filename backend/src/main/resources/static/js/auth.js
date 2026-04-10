@@ -9,7 +9,7 @@ function login() {
 
   const credentials = btoa(username + ":" + password);
 
-  fetch("http://localhost:8080/api/settings", {
+  fetch("/api/settings", {
     headers: {
       Authorization: "Basic " + credentials,
     },
